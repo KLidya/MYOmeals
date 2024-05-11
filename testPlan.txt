@@ -2,7 +2,8 @@ Test Plan for https://www.kohls.com/:
 
 1. Test Scope:
    - This test plan encompasses testing the search functionality, sign-up process, and adding items to the cart on the Kohl's website.
-   - Testing will be conducted using TestNG as the testing framework, Catalon as the test automation tool, and Selenium for web automation, all integrated with Jenkins for continuous integration.
+   - Testing will be conducted using TestNG as the testing framework, katalon as the test automation tool, 
+     and Selenium for web automation, all integrated with Jenkins for continuous integration.
 
 2. Test Objectives:
    - Ensure that the search functionality accurately retrieves relevant results.
@@ -12,7 +13,7 @@ Test Plan for https://www.kohls.com/:
 3. Test Environment:
    - Operating System: Windows 10
    - Browsers: Chrome
-   - Test Automation Tools: TestNG, Catalon, Selenium
+   - Test Automation Tools: TestNG, Katalon, Selenium
    - CI/CD Integration: Jenkins
 
 4. Test Cases:
@@ -37,12 +38,12 @@ Test Plan for https://www.kohls.com/:
    - Use sample search queries for testing search functionality.
 
 6. Test Execution:
-   - Create test scripts using Catalon Studio, utilizing Selenium WebDriver for web automation.
+   - Create test scripts using katalon Studio, utilizing Selenium WebDriver for web automation.
    - Implement test scripts using TestNG to organize and execute tests.
    - Integrate the test suite with Jenkins for automated execution triggered by code changes.
 
 7. Reporting and Analysis:
-   - Generate detailed test execution reports using TestNG and Catalon Studio.
+   - Generate detailed test execution reports using TestNG and katalon Studio.
    - Analyze test results for failures and defects, categorizing them based on severity and priority.
    - Utilize Jenkins' reporting capabilities for tracking test execution trends over time.
 
@@ -55,5 +56,7 @@ Test Plan for https://www.kohls.com/:
    - Regularly update dependencies such as Selenium WebDriver and browser drivers to prevent compatibility issues.
 
 10. Conclusion:
-    - This test plan outlines comprehensive testing of critical functionalities on the Kohl's website using TestNG, Catalon, Selenium, and Jenkins integration. By following this plan, we ensure the reliability and stability of the website's core features, contributing to an enhanced user experience and customer satisfaction.
+    - This test plan outlines comprehensive testing of critical functionalities on the Kohl's website using TestNG, 
+      Katalon, Selenium, and Jenkins integration. By following this plan, we ensure the reliability and stability of the website's core features, 
+      contributing to an enhanced user experience and customer satisfaction.
 
