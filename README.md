@@ -1,2 +1,66 @@
 # KOHL-s
-kohl's testing
+web application testig
+
+
+Test Plan for https://www.kohls.com/:
+
+1. Test Scope:
+   - This test plan encompasses testing the search functionality, sign-up process, and adding items to the cart on the Kohl's website.
+   - Testing will be conducted using TestNG as the testing framework, katalon as the test automation tool, 
+     and Selenium for web automation, all integrated with Jenkins for continuous integration.
+
+2. Test Objectives:
+   - Ensure that the search functionality accurately retrieves relevant results.
+   - Validate the sign-up process by ensuring users can successfully create accounts.
+   - Verify that items can be added to the cart without errors.
+
+3. Test Environment:
+   - Operating System: Windows 10
+   - Browsers: Chrome
+   - Test Automation Tools: TestNG, Katalon, Selenium
+   - CI/CD Integration: Jenkins
+
+4. Test Cases:
+
+   Search Functionality:
+   - TC1: Verify that a search query returns relevant results.
+   - TC2: Ensure the search functionality handles various input formats (text, numbers, special characters) gracefully.
+   - TC3: Verify the pagination functionality if search results exceed a single page.
+
+   Sign-up Process:
+   - TC4: Verify that users can navigate to the sign-up page.
+   - TC5: Ensure all required fields are validated during sign-up.
+   - TC6: Validate the email verification process after sign-up.
+
+   Adding Items to Cart:
+   - TC7: Verify that users can add items to the cart from product pages.
+   - TC8: Ensure the cart updates correctly when items are added.
+   - TC9: Verify that users can remove items from the cart.
+
+5. Test Data:
+   - Generate test data for sign-up process including valid and invalid email addresses, passwords, and user information.
+   - Use sample search queries for testing search functionality.
+
+6. Test Execution:
+   - Create test scripts using katalon Studio, utilizing Selenium WebDriver for web automation.
+   - Implement test scripts using TestNG to organize and execute tests.
+   - Integrate the test suite with Jenkins for automated execution triggered by code changes.
+
+7. Reporting and Analysis:
+   - Generate detailed test execution reports using TestNG and katalon Studio.
+   - Analyze test results for failures and defects, categorizing them based on severity and priority.
+   - Utilize Jenkins' reporting capabilities for tracking test execution trends over time.
+
+8. Risks and Mitigation:
+   - Risks: Changes in the website's structure or functionality may impact test automation scripts.
+   - Mitigation: Regular maintenance of automation scripts to adapt to website changes promptly. Implement version control for test scripts to track changes.
+
+9. Dependencies:
+   - Ensure compatibility of testing tools with the latest browser versions.
+   - Regularly update dependencies such as Selenium WebDriver and browser drivers to prevent compatibility issues.
+
+10. Conclusion:
+    - This test plan outlines comprehensive testing of critical functionalities on the Kohl's website using TestNG, 
+      Katalon, Selenium, and Jenkins integration. By following this plan, we ensure the reliability and stability of the website's core features, 
+      contributing to an enhanced user experience and customer satisfaction.
+
