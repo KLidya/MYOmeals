@@ -1,11 +1,11 @@
-# KOHL-s
+# MyoMeals
 web application testig
 
 
-Test Plan for https://www.kohls.com/:
+Test Plan for https://myomealsprep.com/:
 
 1. Test Scope:
-   - This test plan encompasses testing the search functionality, sign-up process, and adding items to the cart on the Kohl's website.
+   - This test plan encompasses testing the search functionality, sign-up process, and adding items to the cart on the MyoMeals's website.
    - Testing will be conducted using TestNG as the testing framework, katalon as the test automation tool, 
      and Selenium for web automation, all integrated with Jenkins for continuous integration.
 
@@ -60,7 +60,7 @@ Test Plan for https://www.kohls.com/:
    - Regularly update dependencies such as Selenium WebDriver and browser drivers to prevent compatibility issues.
 
 10. Conclusion:
-    - This test plan outlines comprehensive testing of critical functionalities on the Kohl's website using TestNG, 
+    - This test plan outlines comprehensive testing of critical functionalities on the MyoMeals's website using TestNG, 
       Katalon, Selenium, and Jenkins integration. By following this plan, we ensure the reliability and stability of the website's core features, 
       contributing to an enhanced user experience and customer satisfaction.
 
