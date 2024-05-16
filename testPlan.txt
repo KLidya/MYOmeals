@@ -13,7 +13,7 @@ Test Plan for https://myomealsprep.com/:
 3. Test Environment:
    - Operating System: Windows 10
    - Browsers: Chrome
-   - Test Automation Tools: TestNG, Katalon, Selenium
+   - Test Automation Tools: TestNG, Katalon, Selenium, Cucumber
    - CI/CD Integration: Jenkins
 
 4. Test Cases:
@@ -57,6 +57,6 @@ Test Plan for https://myomealsprep.com/:
 
 10. Conclusion:
     - This test plan outlines comprehensive testing of critical functionalities on the MyoMeals's website using TestNG, 
-      Katalon, Selenium, and Jenkins integration. By following this plan, we ensure the reliability and stability of the website's core features, 
+      Katalon, Selenium, Cucumber and Jenkins integration. By following this plan, we ensure the reliability and stability of the website's core features, 
       contributing to an enhanced user experience and customer satisfaction.
 
