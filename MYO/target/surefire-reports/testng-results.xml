@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-30T13:57:42Z" name="Surefire suite" finished-at="2024-05-30T13:57:49Z" duration-ms="7453">
+    <groups>
+    </groups>
+    <test started-at="2024-05-30T13:57:42Z" name="Surefire test" finished-at="2024-05-30T13:57:49Z" duration-ms="7453">
+      <class name="test.com.Myformtest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.com.Myformtest@6166e06f]" started-at="2024-05-30T08:57:42Z" name="setUpClass" finished-at="2024-05-30T08:57:42Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:test.com.Myformtest@6166e06f]" started-at="2024-05-30T08:57:42Z" name="setUpMethod" finished-at="2024-05-30T08:57:43Z" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="test()[pri:0, instance:test.com.Myformtest@6166e06f]" started-at="2024-05-30T08:57:43Z" name="test" finished-at="2024-05-30T08:57:49Z" duration-ms="6380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:test.com.Myformtest@6166e06f]" started-at="2024-05-30T08:57:49Z" name="tearDownMethod" finished-at="2024-05-30T08:57:49Z" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.com.Myformtest@6166e06f]" started-at="2024-05-30T08:57:49Z" name="tearDownClass" finished-at="2024-05-30T08:57:49Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.com.Myformtest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
